@@ -1,3 +1,39 @@
-# README for travis-lab
+[![GitHub license][travis-image]][travis-url]
+[![GitHub license][license-image]][license-url]
+[![Coverage Status](https://coveralls.io/repos/github/andy6804tw/Mocha-Chai-tutorial/badge.svg?branch=master)](coverage-url)
+## Getting Started
+### Clone Project
+ you can create a new project based on Mocha-Chai-tutorial by doing the following:
 
-[![Build status](https://travis-ci.org/skt90u/hello_travis_ci.svg?master)](https://travis-ci.org/skt90u)
+```bash
+$ git clone https://github.com/andy6804tw/Mocha-Chai-tutorial.git
+$ cd Mocha-Chai-tutorial
+```
+
+### Installation
+When that's done, install the project dependencies.You can use npm or yarn(recommended) for dependency management。
+
+```bash
+$ npm install
+```
+
+### Running the Project
+
+After completing the [installation](#installation) step, you're ready to start the project!
+
+| script | Description |
+| ------| ------ |
+| start | Serves your app at localhost:3000 |
+| test | Runs unit tests with mocha  |
+
+
+## Screenshot
+
+<img src="/screenshot/img-1.png" width="650">
+
+
+[travis-image]: https://travis-ci.org/andy6804tw/Mocha-Chai-tutorial.svg?branch=master
+[travis-url]: https://travis-ci.org/andy6804tw/Mocha-Chai-tutorial
+[license-image]: https://img.shields.io/npm/l/express.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com
+[license-url]: https://github.com/andy6804tw/Mocha-Chai-tutorial/blob/master/LICENSE
+[coverage-url]:https://coveralls.io/github/andy6804tw/Mocha-Chai-tutorial?branch=master
