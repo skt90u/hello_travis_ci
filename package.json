@@ -6,7 +6,7 @@
   "author": "skt90u <skt90u@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "test": "mocha || true",
+    "test": "true",
     "start": "nodemon index.js"
   },
   "devDependencies": {
