@@ -1,0 +1,15 @@
+{
+  "name": "hello_travis_ci",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/skt90u/hello_travis_ci",
+  "author": "skt90u <skt90u@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha || true",
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
